@@ -1,0 +1,88 @@
+body {
+  background: rgb(241, 153, 170);
+  background: linear-gradient(
+    90deg,
+    rgba(241, 153, 170, 1) 0%,
+    rgba(140, 55, 192, 1) 29%
+  );
+}
+
+.todo-app {
+  display: flex;
+}
+
+.todo-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 40vw;
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+.todo-class {
+  margin-left: 50px;
+  margin-top: 75px;
+  width: 400px;
+}
+.todo-inner {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  background-color: white;
+}
+.class1 {
+  margin-bottom: 50px;
+  height: 75px;
+  border-radius: 6px;
+}
+#create {
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-right: 25px;
+  height: 30px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#create-btn {
+  height: 35px;
+  width: 60px;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.class2 {
+  border-radius: 6px;
+}
+#display-todo {
+  margin-left: 25px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.item {
+  border-bottom: 1px solid gray;
+}
+.item input-ctrl {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.item button {
+  margin-left: 4px;
+  color: white;
+  height: 25px;
+  width: 30px;
+  background-color: blueviolet;
+  border: none;
+}
+.item textarea {
+  margin-top: 15px;
+  border: none;
+  font-weight: bold;
+  color: black;
+}
+.update-ctrl button {
+  width: 50px;
+}

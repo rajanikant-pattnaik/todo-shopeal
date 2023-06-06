@@ -26,6 +26,9 @@ body {
   margin-top: 75px;
   width: 400px;
 }
+.todo-class h1{
+  display: none;
+}
 .todo-inner {
   width: 80%;
   margin: auto;
@@ -85,4 +88,23 @@ body {
 }
 .update-ctrl button {
   width: 50px;
+}
+@media screen and (max-width:1000px){
+  .todo-name{
+    display: none;
+  }
+  .todo-class h1{
+    display: block;
+    margin-left: 50px;
+    color: white;
+  }
+}
+@media screen and (max-width:450px){
+  #create-btn{
+    width: 35px;
+    margin-left: -10px;
+  }
+  .item button{
+    margin-left: 0px;
+  }
 }

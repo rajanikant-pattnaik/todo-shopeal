@@ -104,6 +104,12 @@ body {
     width: 35px;
     margin-left: -10px;
   }
+  #create{
+    margin-left: 5px;
+  }
+  #display-todo{
+    margin-left: 5px;
+  }
   .item button{
     margin-left: 0px;
   }
